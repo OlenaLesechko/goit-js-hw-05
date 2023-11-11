@@ -1,5 +1,5 @@
 "use strict"
-function getUsersWithFriend(users, friendName) {
+const getUsersWithFriend = (users, friendName) => {
     const userHasFriend = users.filter(user => user.friends.includes(friendName)); 
     return userHasFriend;
 }
